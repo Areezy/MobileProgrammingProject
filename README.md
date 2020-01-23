@@ -1,5 +1,5 @@
 # MobileProgrammingProject
-A shopping application made in android studio, showcasing all aspects of mobile programming such as, Localisation, Content providers (SQLite), api usage, broadcast receivers and a recycler view
+A shopping application made in android studio, showcasing all aspects of mobile programming such as, Localisation, Content providers (SQLite), api usage, broadcast receivers and a recycler view designed by I and a colleague
 
 The application includes an initial sign in or sign up page. The main activity includes a recycler view and a battery icon linked to a braodcast receiver, it lights up when the device is charging. The recycler view is populated by a local database which can be filled with mock data by selecting the "database refresh" option in the overflow menu. The database however, can have new data inserted or have existing data updated by selecting the "insert or update database" option in the overflow menu. Data can also be deleted by clicking an item in the recycler view.
 
