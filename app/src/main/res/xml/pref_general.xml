@@ -1,0 +1,66 @@
+<PreferenceScreen
+    xmlns:android = "http://schemas.android.com/apk/res/android"
+
+    android:layout_width ="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <ListPreference
+        android:title        ="@string/notifs"
+        android:key          ="notifications"
+        android:defaultValue ="All"
+        android:entryValues  ="@array/pref_notifs_values"
+        android:entries      ="@array/pref_notifs_options">
+    </ListPreference>
+
+
+    <Preference
+        android:title="@string/my_bids"
+        android:summary="@string/bids_desc">
+        <intent
+            android:action="android.intent.action.VIEW"
+         android:targetPackage="com.example.mobileprogrammingproject"
+            android:targetClass="com.example.mobileprogrammingproject.BidsActivity" />
+
+
+    </Preference>
+
+
+    <Preference
+        android:title="@string/my_sales"
+        android:summary="@string/sales_desc">
+        <intent android:action="android.intent.action.VIEW"
+            android:targetPackage="com.example.mobileprogrammingproject"
+            android:targetClass="com.example.mobileprogrammingproject.SalesActivity" />
+
+
+    </Preference>
+
+
+
+    <Preference
+        android:title="@string/paymentdetails"
+        android:summary="@string/paymentdetails_desc"
+        >
+        <intent android:action="android.intent.action.VIEW"
+            android:targetPackage="com.example.mobileprogrammingproject"
+            android:targetClass="com.example.mobileprogrammingproject.PaymentActivity" />
+
+
+    </Preference>
+
+    <Preference
+        android:title="@string/logout"
+
+        >
+        <intent android:action="android.intent.action.VIEW"
+            android:targetPackage="com.example.mobileprogrammingproject"
+            android:targetClass="com.example.mobileprogrammingproject.SignInActivity"/>
+
+
+    </Preference>
+
+
+
+</PreferenceScreen>

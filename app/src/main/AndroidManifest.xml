@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mobileprogrammingproject">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".DatabaseActivity"
+            android:label="@string/title_activity_database"
+            android:theme="@style/NoActionBar"></activity>
+
+        <provider
+            android:name=".data.ProjectProvider"
+            android:authorities="com.example.mobileprogrammingproject"
+            android:enabled="true"
+            android:exported="true"></provider>
+
+        <activity android:name=".SignInActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SignUpActivity" />
+        <activity
+            android:name=".PaymentActivity"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".SalesActivity"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".BidsActivity"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".AccountActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_account"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".SettingsActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="Settings"
+            android:parentActivityName=".MainActivity" />
+        <service
+            android:name=".sync.ShoppingReminderIntentService"
+            android:exported="false">
+        </service>
+        <service
+            android:name=".sync.FirebaseJobService"
+            android:permission="android.permission.BIND_JOB_SERVICE"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.firebase.jobdispatcher.ACTION_EXECUTE"/>
+            </intent-filter>
+        </service>
+    </application>
+
+
+</manifest>

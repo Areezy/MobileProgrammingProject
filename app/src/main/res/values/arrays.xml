@@ -1,0 +1,25 @@
+<resources>
+    <string-array name="pref_notifs_options">
+        <item>"Email"</item>
+        <item>"Application"</item>
+        <item>"SMS"</item>
+        <item>"All"</item>
+    </string-array>
+
+    <string-array name="pref_notifs_values">
+        <item>"Email"</item>
+        <item>"Application"</item>
+        <item>"SMS"</item>
+        <item>"All"</item>
+    </string-array>
+
+    <string-array name="pref_properties_options">
+        <item>"Max"</item>
+        <item>"Min"</item>
+    </string-array>
+
+    <string-array name="pref_properties_values">
+        <item>"max"</item>
+        <item>"min"</item>
+    </string-array>
+</resources>

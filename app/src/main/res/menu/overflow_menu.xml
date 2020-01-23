@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item android:id="@+id/settings"
+   android:title="@string/Settingsmenu"
+    app:showAsAction="never" />
+
+    <item android:id="@+id/account"
+        android:title="@string/Accountmenu"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/database"
+        android:title="@string/database_refresh"
+        app:showAsAction="never" />
+    <item android:id="@+id/insertion"
+        android:title="@string/insert_or_update_database"
+        app:showAsAction="never" />
+
+
+
+</menu>

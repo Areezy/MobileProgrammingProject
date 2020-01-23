@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <resources>
+    <string name="app_name">Mobil Programlama Projesi</string>
+    <string name="my_bids">Tekliflerim</string>
+    <string name="logout">Çıkış yap</string>
+    <string name="bids_desc">Etkin ve tamamlanmış teklifleri görmek için seçin</string>
+    <string name="notifs">Bildirim Ayarları</string>
+    <string name="sales_desc">Onaylanmış satışları görmek için seçin</string>
+    <string name="my_sales">Satışlarım</string>
+    <string name="title_activity_account">Hesabım</string>
+    <string name="Accountactivityex">Hesap Bilgileri Burada</string>
+    <string name="paymentdetails_desc">Ödeme bilgilerini ekleme veya güncelleme</string>
+    <string name="paymentdetails">Ödeme Bilgileri</string>
+    <string name="salesact">Satış bilgileri burada</string>
+    <string name="bidsact">Teklif bilgileri burada</string>
+    <string name="mainact">Ana Faaliyet Burada</string>
+    <string name="paymentact">Ödeme Etkinliği Burada</string>
+    <string name="button">Button</string>
+    <string name="sign_in">Giriş yap</string>
+    <string name="sign_up">Kaydol</string>
+    <string name="Login">Giriş yap</string>
+    <string name="hintname">Kullanıcı adınızı girin</string>
+    <string name="hintpassword">Şifrenizi girin</string>
+    <string name="Accountmenu">Hesap</string>
+    <string name="Settingsmenu">Ayarlar</string>
+    <string name="emailsignin">E-posta adresinizi girin </string>
+    <string name="usernamesignup">Bir kullanıcı adı seçin</string>
+    <string name="passwordsignup">Bir parola seçin</string>
+    <string name="signupbtn">Kaydolmak</string>
+    <string name="successsignin">Başarıyla Kaydoldum</string>
+    <string name="entercardnumber">Kredi kartı numaranızı girin</string>
+    <string name="checkout">ödeme</string>
+    <string name="pay">Alışveriş Tamamla</string>
+    <string name="checkoutsuccess">Başarı!</string>
+    <string name="checkoutfailed">Ödeme başarısız oldu</string>
+    <string name="title_activity_database">Veritabanı Etkinliği</string>
+    <string name="insert">Girmek</string>
+    <string name="update">Güncelleme</string>
+    <string name="enter_the_item_price">Ürün fiyatını girin</string>
+    <string name="enter_the_item_name">Öğe adını girin</string>
+    <string name="id_for_update">Güncelleme kimliği</string>
+    <string name="are_there_bids_on_this_product">Bu üründe teklif var mı?</string>
+    <string name="item_name">Öğe adı</string>
+    <string name="price">fiyat</string>
+    <string name="bids">teklifleri</string>
+    <string name="database_refresh">Veritabanı Yenileme</string>
+    <string name="insert_or_update_database">Veritabanı Ekleme veya Güncelleme</string>
+    <string name="save_money_notification_title">Bizimle daha fazla tasarruf edin!</string>
+    <string name="main_notification_channel_name">ana</string>
+    <string name="new_product_notification">Yeni ürünler burada - kaçırmayın!</string>
+
+</resources>
