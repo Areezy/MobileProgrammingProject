@@ -17,6 +17,8 @@ The notification can be tested by using the button on the main activity and the 
 - [Mohammad Shughri](https://github.com/MXS11)
 - [Olamilekan Rasaq AREMU](https://github.com/Areezy)
 
+# Project grade 📝
+100/100. 
 # Screenshots 📸
 ![](screenshots/4.jpg)
 ![](screenshots/1.jpg)
