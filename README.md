@@ -14,7 +14,7 @@ The payment activity uses stripe API to simulate payment. Although, it needs a l
 The notification can be tested by using the button on the main activity and the background service delivers a notification once every minute.
 
 # Team members 👨‍💻
-- [Mohammad Shughri](https://github.com/MXS11)
+- [Mohammad Shughri](https://github.com/MohammadShughri)
 - [Olamilekan Rasaq Aremu](https://github.com/Areezy)
 
 # Project grade 📝
